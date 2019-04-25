@@ -32,7 +32,6 @@ func (r *Redis) Get() (shared.State){
 
 func (r *Redis) Put(state shared.State) (error){
 	err := r.Client.Set(r.Config.Key, state.ToJSON(), 0).Err()
-	time.Sleep(100 * time.Millisecond)
 	return err
 }
 
