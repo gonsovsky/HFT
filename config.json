@@ -1,0 +1,9 @@
+{
+  "Participants": 3,
+  "Redis": {
+    "Host": "193.124.59.179",
+    "Port": "6379",
+    "Db": 0,
+    "Key": "myKey"
+  }
+}
